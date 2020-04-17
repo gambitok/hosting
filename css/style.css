@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Nunito");
+@import url("https://fonts.googleapis.com/css?family=Lato");
 body,
 html {
   width: 100%;
@@ -9,3 +9,6 @@ html {
   padding: 0;
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
+
+body {
+  font-family: 'Lato', sans-serif; }
