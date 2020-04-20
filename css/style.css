@@ -104,9 +104,28 @@ body {
 
 .portfolio {
   padding: 100px 0;
-  background-color: #f3f3f3; }
-  .portfolio__form__card img {
-    width: 100px; }
+  background-color: #f3f3f3;
+  text-align: center; }
+  .portfolio h2 {
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    font-weight: 600; }
+  .portfolio a {
+    text-transform: uppercase;
+    color: black; }
+    .portfolio a:hover {
+      color: #ada074; }
+  .portfolio button {
+    margin-top: 50px; }
+  .portfolio__form {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+    .portfolio__form__card {
+      width: 50%; }
+      .portfolio__form__card img {
+        width: 100%; }
 
 .partners {
   padding: 100px 0;

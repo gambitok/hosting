@@ -129,10 +129,31 @@ body {
 .portfolio {
   padding: 100px 0;
   background-color: $bg_portfolio;
+  text-align: center;
+  h2 {
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  a {
+    text-transform: uppercase;
+    color: $t_black;
+    &:hover {
+      color: $t_gold;
+    }
+  }
+  button {
+    margin-top: 50px;
+  }
   &__form {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     &__card {
+      width: 50%;
       img {
-        width: 100px;
+        width: 100%;
       }
     }
   }
