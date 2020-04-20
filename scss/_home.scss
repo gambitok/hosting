@@ -14,3 +14,56 @@ html {
 body {
   font-family: 'Lato', sans-serif;;
 }
+
+.header {
+  background: url("../img/bg-header.png");
+  height: 100%;
+  &__item {
+    padding-top: 150px;
+    display: block;
+    margin: 0 auto;
+    color: $t-white;
+    text-align: center;
+    h1 {
+      font-size: 28px;
+      text-transform: uppercase;
+      font-weight: 800;
+      letter-spacing: 3px;
+    }
+    h2 {
+      padding-top: 5px;
+      font-size: 20px;
+      font-weight: 400;
+      letter-spacing: 3px;
+    }
+    button {
+      background: transparent;
+      padding: 10px 30px;
+      color: $t-white;
+      border: 2px solid $t-white;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.footer {
+  background: $bg_footer;
+  padding: 50px 0;
+  &__item {
+    text-align: center;
+    padding-top: 25px;
+    ul {
+      list-style: none;
+      li {
+        display: inline;
+        a {
+          color: $t-gray_light;
+          text-decoration: none;
+        }
+      }
+    }
+    span {
+      color: $t_gray_dark;
+    }
+  }
+}
