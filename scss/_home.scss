@@ -204,6 +204,60 @@ h2 {
   padding: 100px 0;
   &__form {
     margin-top: 100px;
+    &__item {
+      .col {
+        padding-bottom: 50px;
+      }
+      label {
+        font-size: 16px;
+        text-transform: uppercase;
+        font-weight: 600;
+        display: block;
+        padding-bottom: 15px;
+      }
+      input[type='text'], input[type='email'], textarea {
+        background: $bg_gray;
+        border: none;
+        border-top: 1px solid $t_black;
+        width: 100%;
+        height: 25px;
+      }
+      textarea {
+        height: 100px;
+      }
+      input[type='submit'] {
+        background: transparent;
+        border: none;
+        font-size: 16px;
+        text-transform: uppercase;
+        font-weight: 600;
+        cursor: pointer;
+        float: right;
+      }
+      a, span {
+        color: $t_black;
+        text-decoration: none;
+        font-weight: 600;
+      }
+      p {
+        line-height: 30px;
+        margin-bottom: 15px;
+      }
+      ul {
+        list-style: none;
+        li {
+          display: inline-block;
+          width: 25px;
+          height: 25px;
+          border: 2px solid black;
+          line-height: 20px;
+          text-align: center;
+          border-radius: 25px;
+          font-weight: 600;
+          margin-right: 10px;
+        }
+      }
+    }
   }
 }
 

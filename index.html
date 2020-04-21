@@ -125,23 +125,39 @@
         <h2>Contact</h2>
         <hr>
         <div class="row contact__form">
-            <div class="col-6">
+            <div class="col-6 contact__form__item">
                 <form method="post" action="send">
-                    <label for="name">Your name</label>
-                    <input type="text" id="name" name="name">
-                    <label for="email">Your e-mail</label>
-                    <input type="email" id="email" name="email">
-                    <label for="message">Message</label>
-                    <textarea name="message" id="message"></textarea>
-                    <input type="submit" value="Send">
+                    <div class="row">
+                        <div class="col col-6">
+                            <label for="name">Your name</label>
+                            <input type="text" id="name" name="name">
+                        </div>
+                        <div class="col col-6">
+                            <label for="email">Your e-mail</label>
+                            <input type="email" id="email" name="email">
+                        </div>
+                        <div class="col col-12">
+                            <label for="message">Message</label>
+                            <textarea name="message" id="message"></textarea>
+                        </div>
+                        <div class="col-12">
+                            <input type="submit" value="Send">
+                        </div>
+                    </div>
                 </form>
             </div>
-            <div class="col-6">
-                <p> Have an idea for a project? Just looking to explore and see the possibilities? I'm here to help. </p>
-                <p>Postma Elena</p>
-                <a href="#">fb</a>
-                <a href="#">lin</a>
-                <p>e-mail: <a href="mailto:postma.elena@gmail.com">postma.elena@gmail.com</a></p>
+            <div class="col-6 contact__form__item">
+                <div class="row">
+                    <div class="col-8">
+                        <p> Have an idea for a project? Just looking to explore and see the possibilities? I'm here to help. </p>
+                        <p><span>Postma Elena</span></p>
+                        <ul>
+                            <li><a href="#">f</a></li>
+                            <li><a href="#">in</a></li>
+                        </ul>
+                        <p>e-mail: <a href="mailto:postma.elena@gmail.com">postma.elena@gmail.com</a></p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
