@@ -222,3 +222,14 @@ h2 {
         color: #616161; }
     .footer__item span {
       color: #616161; }
+
+@media (max-width: 768px) {
+  .nav-list li {
+    display: block;
+    padding-bottom: 15px; }
+  .about__p-title {
+    margin: 0; }
+  .about__form {
+    margin: 0; }
+  .contact__form__item {
+    margin-bottom: 30px; } }
