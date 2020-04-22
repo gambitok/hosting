@@ -58,10 +58,9 @@ h2 {
     background: black; }
 
 .header {
-  background: url("../img/bg-header.png");
-  height: 1080px; }
+  background: url("../img/bg-header.png"); }
   .header__item {
-    padding-top: 150px;
+    padding: 100px;
     display: block;
     margin: 0 auto;
     color: white;
@@ -108,9 +107,15 @@ h2 {
         padding: 20px;
         border-radius: 100px;
         width: 75px;
-        height: 75px; }
+        height: 75px;
+        position: relative; }
         .about__form__card .round-image img {
-          width: 100%; }
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          margin: auto; }
       .about__form__card span {
         display: block;
         text-align: center;
@@ -227,9 +232,34 @@ h2 {
   .nav-list li {
     display: block;
     padding-bottom: 15px; }
-  .about__p-title {
-    margin: 0; }
-  .about__form {
-    margin: 0; }
-  .contact__form__item {
-    margin-bottom: 30px; } }
+  .header {
+    height: auto; }
+    .header__item {
+      padding: 50px 0; }
+  .about {
+    padding: 50px 0; }
+    .about__p-title {
+      margin: 0; }
+    .about__form {
+      margin: 0;
+      flex-direction: column; }
+      .about__form__card {
+        width: 100%;
+        margin: 30px auto; }
+  .portfolio {
+    padding: 50px 0; }
+    .portfolio__form {
+      flex-direction: column; }
+      .portfolio__form__card {
+        width: 100%;
+        margin: 10px auto; }
+  .partners {
+    padding: 50px 0; }
+    .partners__form {
+      flex-direction: column; }
+      .partners__form__card {
+        margin: 10px auto; }
+  .contact {
+    padding: 50px 0; }
+    .contact__form__item {
+      margin-bottom: 30px; } }

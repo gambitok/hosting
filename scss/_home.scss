@@ -70,9 +70,8 @@ h2 {
 
 .header {
   background: url("../img/bg-header.png");
-  height: 1080px;
   &__item {
-    padding-top: 150px;
+    padding: 100px;
     display: block;
     margin: 0 auto;
     color: $t-white;
@@ -129,8 +128,14 @@ h2 {
         border-radius: 100px;
         width: 75px;
         height: 75px;
+        position: relative;
         img {
-          width: 100%;
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          margin: auto;
         }
       }
       span {
@@ -249,7 +254,7 @@ h2 {
           display: inline-block;
           width: 25px;
           height: 25px;
-          border: 2px solid black;
+          border: 2px solid $t_black;
           line-height: 20px;
           text-align: center;
           border-radius: 25px;
