@@ -1,66 +1,70 @@
-// phone
+/*==== PHONE =====*/
 @media (max-width: 768px) {
-  .nav-list {
-    li {
-      display: block;
-      padding-bottom: 15px;
+    .nav-list {
+        li {
+            display: block;
+            padding-bottom: 15px;
+        }
     }
-  }
 
-  .header {
-    height: auto;
-    &__item {
-      padding: 50px 0;
+    .header {
+        height: auto;
+        &__item {
+            padding: 50px 0;
+        }
     }
-  }
 
-  .about {
-    padding: 50px 0;
-    &__p-title {
-      margin: 0;
+    .about {
+        padding: 50px 0;
+        &__p-title {
+            margin: 0;
+        }
+        &__form {
+            margin: 0;
+            flex-direction: column;
+            &__card {
+                width: 100%;
+                margin: 30px auto;
+            }
+        }
     }
-    &__form {
-      margin: 0;
-      flex-direction: column;
-      &__card {
-        width: 100%;
-        margin: 30px auto;
-      }
-    }
-  }
 
-  .portfolio {
-    padding: 50px 0;
-    &__form {
-      flex-direction: column;
-      &__card {
-        width: 100%;
-        margin: 10px auto;
-      }
+    .portfolio {
+        padding: 50px 0;
+        &__form {
+            flex-direction: column;
+            &__card {
+                width: 100%;
+                margin: 10px auto;
+            }
+        }
     }
-  }
 
-  .partners {
-    padding: 50px 0;
-    &__form {
-      flex-direction: column;
-      &__card {
-        margin: 10px auto;
-      }
+    .partners {
+        padding: 50px 0;
+        &__form {
+            flex-direction: column;
+            &__card {
+                margin: 10px auto;
+            }
+        }
     }
-  }
 
-  .contact {
-    padding: 50px 0;
-    &__form {
-      &__item {
-        margin-bottom: 30px;
-      }
+    .contact {
+        padding: 50px 0;
+        &__form {
+            &__item {
+                margin-bottom: 30px;
+            }
+        }
     }
-  }
 }
 
-// pad
+/*==== /PHONE =====*/
+
+/*==== PAD =====*/
 @media (min-width: 768px) and (max-width: 1200px) {
 
 }
+
+/*==== /PAD =====*/

@@ -146,10 +146,37 @@ h2 {
     flex-wrap: wrap;
     justify-content: center; }
     .portfolio__form__card {
+      position: relative;
       width: calc(50% - 20px);
-      margin: 10px; }
+      margin: 10px;
+      background: black; }
+      .portfolio__form__card:hover .overlay {
+        opacity: .75; }
       .portfolio__form__card img {
-        width: 100%; }
+        display: block;
+        width: 100%;
+        height: auto; }
+      .portfolio__form__card .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: #000; }
+        .portfolio__form__card .overlay span {
+          color: white;
+          font-size: 20px;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+          text-align: center; }
 
 .partners {
   padding: 100px 0;
@@ -205,6 +232,7 @@ h2 {
     .contact__form__item ul {
       list-style: none; }
       .contact__form__item ul li {
+        cursor: pointer;
         display: inline-block;
         width: 25px;
         height: 25px;
@@ -214,6 +242,8 @@ h2 {
         border-radius: 25px;
         font-weight: 600;
         margin-right: 10px; }
+        .contact__form__item ul li:hover {
+          background: #ccc; }
 
 .footer {
   background: #3c3c3c;
@@ -228,6 +258,7 @@ h2 {
     .footer__item span {
       color: #616161; }
 
+/*==== PHONE =====*/
 @media (max-width: 768px) {
   .nav-list li {
     display: block;
@@ -263,3 +294,7 @@ h2 {
     padding: 50px 0; }
     .contact__form__item {
       margin-bottom: 30px; } }
+
+/*==== /PHONE =====*/
+/*==== PAD =====*/
+/*==== /PAD =====*/
